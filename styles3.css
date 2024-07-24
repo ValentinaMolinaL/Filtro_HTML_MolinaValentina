@@ -1,0 +1,110 @@
+@font-face {
+    font-family: letra;
+    src: url(fuente/MYRIADPRO-REGULAR.OTF);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:#dbecf4;
+    font-family: letra;
+    overflow: hidden;
+}
+.bloqueMenu{
+    margin-left: 0.3vw;
+    width: 19vw;
+    height: 53vw;
+    display:grid;
+
+}
+.bloqueMenu .titulo{
+    font-size: 2.8vw;
+    margin-left: 2vw;
+
+}
+a{
+    margin-top:-1.5vw;
+    margin-left: 2vw;
+}
+.bloqueMenu p{
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+.bloqueMenu a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+/*Cajon Productos*/
+.productos{
+    width: 75vw;
+    height: 46vw;
+    display: grid;
+    gap: 1.5vw;
+    border-radius: 2.5vw;
+    overflow: hidden;
+    margin-left: 22vw;
+    margin-top: -51.5vw;
+    border-style: solid;
+    background-color:#3f557a;
+    overflow: scroll;
+}
+img{
+    width: 12vw;
+    height: 16.1vw;
+    border-radius: 2vw;
+}
+.chaqueta5, .camiseta1, .camiseta2, .camiseta3, .camiseta4, .camiseta5, .Pantalon1, .Pantalon2, .Pantalon3, .Pantalon4, .Pantalon5{
+    width: 12vw;
+    height: 16.1vw;
+    border-radius: 2vw;
+}
+.chaquetas{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.camisetas{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pantalones{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ultimoBloque{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.contProducto{
+    width: 12.5vw;
+    height: 24.2vw;
+    border-radius: 1.4vw;
+    background-color: white;
+}
+.cajaDescripcion{
+    width: 12.3vw;
+    height: 7vw;
+    border-style: solid;
+    border-radius: 1.4vw;
+    font-size: 1vw;
+
+}
+.cajaDescripcion p{
+    margin-left: 0.1vw;
+}
+.botonAgregar{
+    margin-top: -2vw;
+    margin-left: 6vw;
+    width: 5vw;
+    height: 1.5vw;
+    background-color:#1a4568;
+    border-radius: 0.5vw;
+}
+.botonAgregar a{
+    margin-left: 0.9vw;
+    text-decoration: none;
+    color: white;
+}
