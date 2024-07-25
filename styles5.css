@@ -43,15 +43,23 @@ a{
     border-style: solid;
     background-color:#3f557a;
 }
+.TituloCarrito{
+    margin-top: 1vw;
+    margin-left: 3vw;
+    font-size: 2.5vw;
+}
 .contentInformaci{
+    z-index: 2;
+    position: relative;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .imagen{
+    margin-left: 2vw;
     height: 31vw;
     display: grid;
     gap: 3vw;
-    background-color: #dbecf4;
 }
 .Pantalon1{
     width: 6vw;
@@ -68,90 +76,142 @@ a{
     height: 7vw;
     border-radius: 2vw;
 }
-
-
 .nombres{
     height: 31vw;
     display: grid;
     gap: 1vw;
-    background-color: bisque;
 }
 span{
     font-size: 2vw;
 }
-
-
 .cantidades{
     width: 6.5vw;
     height: 1vw;
     display: grid;
-    gap: 3vw;
-    background-color: beige;
+}
+.cant1{
+    margin-top: -0.1vw;
+}
+.cant2{
+    margin-top: 0.7vw;
+}
+.cant3{
+    margin-top: 2vw;
 }
 .tituloCant{
-    margin-top: 1.2vw;
     font-size: 2vw;
-    background-color: aliceblue;
 }
 .cantidad p{
     width: 6.1.1vw;
     height: 2vw;
+    border:1.9px solid black;
     margin-top: -1vw;
-    background-color: aquamarine;
+    background-color:white;
 }
-
-
 .precios{
     height: 31vw;
     display: grid;
     gap: 3vw;
-    background-color: azure;
+    margin-top: 0.3vw;
+    margin-left: 2vw;
+}
+.precios span{
+    margin-top: 1vw;
+}
+.precios p{
+    margin-top: -3vw;
 }
 .subtotal{
     height: 31vw;
     display: grid;
     gap: 3vw;
-    background-color: whitesmoke;
+    margin-top: 0.3vw;
+    margin-left: 1vw;
+}
+.subtotal span{
+    margin-top: 1vw;
+}
+.subtotal p{
+    margin-top: -3vw;
 }
 .imgBotonE{
     height: 31vw;
     display: grid;
     gap: 3vw;
+    margin-top:3.7vw;
 }
-.imgBotonE img{
-    width: 2vw;
-    height: 2vw;
+.imgBasura img{
+    width: 4vw;
+    height: 3.5vw;
 }
-/* BLOQUES VACIOS -----------------------------------------------*/
+/* BLOQUES VACIOS ----------------------------------------------5*/
 
 .tresBloques{
+    background-color: aqua;
     display: grid;
 }
-.bloque1{
-    width: 68vw;
-    height: 7vw;
-    border-style:solid;
-    margin-left: -40vw;
+.bloque1{ 
+    position: absolute;
+    top:4.8em;
+    left: 14.5em;
+    width: 71vw;
+    height: 8.5vw;
+    border:2px solid black;
+    border-radius: 2vw;
+    background-color: white;
 }
 .bloque2{
-    width: 68vw;
-    height: 7vw;
-    border-style:solid;
-    margin-left: -40vw;
+    position: absolute;
+    top:11.2em;
+    left: 14.5em;
+    width: 71vw;
+    height: 8.5vw;
+    border:2px solid black;
+    border-radius: 2vw;
+    background-color: white;
 }
-.bloque3{
-    width: 68vw;
-    height: 7vw;
-    border-style:solid;
-    margin-left: -40vw;
+.bloque3{ 
+    position: absolute;
+    top:18.3em;
+    left: 14.5em;
+    width: 71vw;
+    height: 8.5vw;
+    border:2px solid black;
+    border-radius: 2vw;
+    background-color: white;
 }
 /*parte baja ____________________________________________________*/
 
 .vaciarC{
-    height: 5vw;
-    background-color: rgb(216, 132, 22);
+    height: 2.5vw;
+    width: 11vw;
+    text-align: center;
+    margin-left: 2vw;
+    margin-top: -4vw;
+    border-radius: 0.5vw;
+    background-color:#0c2f4d;
+}
+.vaciarC a{
+    font-size: 1.4vw;
+    text-align: center;
 }
 .totalCompra{
     height: 5vw;
-    background-color: thistle;
+    width: 22vw;
+    margin-left: 50vw;
+    margin-top: -2.5vw;
+    display: flex;
+    border-radius: 0.5vw;
+    background-color: #0c2f4d;
 }
+ .total{
+    margin-top: -1vw;
+ }
+ .comprarAhora p{
+    height: 2.3vw;
+    width:13vw;
+    text-align: center;
+    margin-left: 1.2vw;
+    border-radius: 0.5vw;
+    background-color: #dbecf4;
+ }
